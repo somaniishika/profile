@@ -5,7 +5,7 @@ import BentoCard from "./BentoCard";
 import SectionWrapper from "./SectionWrapper";
 import { portfolioData } from "@/data/portfolio";
 import { Mail, ArrowUpRight } from "lucide-react";
-import { GithubIcon, LinkedinIcon, XIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon } from "./Icons";
 import { motion } from "framer-motion";
 
 export default function ContactSection() {
@@ -25,10 +25,10 @@ export default function ContactSection() {
       color: "hover:text-[#0A66C2]",
     },
     {
-      name: "Twitter",
-      url: socials.twitter,
-      icon: <XIcon className="w-6 h-6" />,
-      color: "hover:text-accent",
+      name: "Instagram",
+      url: socials.instagram,
+      icon: <InstagramIcon className="w-6 h-6" />,
+      color: "hover:text-[#E1306C]",
     },
     {
       name: "Email",

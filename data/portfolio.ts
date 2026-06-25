@@ -70,6 +70,20 @@ export const portfolioData: PortfolioData = {
       duration: "2021 - 2022"
     }
   ],
+  experience: [
+    {
+      company: "ByteCraft Studio",
+      role: "Frontend Engineer Intern",
+      duration: "Jun 2025 - Present",
+      description: "Developing modern UI features for their core SaaS product using Next.js, Tailwind CSS, and Framer Motion. Reduced page load times by 25% by implementing dynamic routing and image optimization."
+    },
+    {
+      company: "Freelance & Open Source",
+      role: "Full-Stack Developer",
+      duration: "2023 - 2025",
+      description: "Built responsive landing pages and high-performance web applications for startup clients. Active contributor to open-source UI libraries, resolving accessibility issues."
+    }
+  ],
   certifications: [
     {
       name: "AWS Certified Cloud Practitioner",
@@ -122,7 +136,7 @@ export const portfolioData: PortfolioData = {
   socials: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    instagram: "https://instagram.com",
     email: "kai@vance.codes"
   },
   contactMessage: "Always open to building cool things, collaborating on weird projects, or chatting about matcha. Let's make something amazing."
