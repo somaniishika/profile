@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import TechStackSection from "@/components/TechStackSection";
 import EducationSection from "@/components/EducationSection";
+import ExperienceSection from "@/components/ExperienceSection";
 import CertificationSection from "@/components/CertificationSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
@@ -42,7 +43,10 @@ export default function Home() {
         {/* Combined Credentials Section (Education & Certifications) */}
         <SectionWrapper id="credentials" number="[02.5]" title="Credentials" subtitle="background.md">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <EducationSection />
+            <div className="space-y-12">
+              <EducationSection />
+              <ExperienceSection />
+            </div>
             <CertificationSection />
           </div>
         </SectionWrapper>

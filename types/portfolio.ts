@@ -16,6 +16,13 @@ export interface Education {
   gpa?: string;
 }
 
+export interface Experience {
+  company: string;
+  role: string;
+  duration: string;
+  description: string;
+}
+
 export interface Certification {
   name: string;
   issuer: string;
@@ -34,7 +41,7 @@ export interface Project {
 export interface SocialLinks {
   github?: string;
   linkedin?: string;
-  twitter?: string;
+  instagram?: string;
   email?: string;
 }
 
@@ -48,6 +55,7 @@ export interface PortfolioData {
   interests: Interest[];
   techStack: TechGroup[];
   education: Education[];
+  experience: Experience[];
   certifications: Certification[];
   projects: Project[];
   socials: SocialLinks;
