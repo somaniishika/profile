@@ -1,11 +1,11 @@
 import { PortfolioData } from "../types/portfolio";
 
 export const portfolioData: PortfolioData = {
-  name: "Kai Vance",
-  nickname: "kaicodes",
-  role: "Full-Stack Developer",
-  tagline: "I build things and occasionally touch grass 🌿",
-  bio: "A self-taught full-stack developer obsessed with pixel-perfect interfaces, smooth micro-interactions, and drinking way too much iced matcha. I ship fast, compile faster, and run on pure caffeine and curiosity.",
+  name: "Ishika Somani",
+  nickname: "ishika",
+  role: "Software Development Engineer",
+  tagline: "Building scalable backend services, securing LLM interactions, and developing productivity tools 💻",
+  bio: "A Software Development Engineer at Systango with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and building custom developer tools like Chrome extensions.",
   profilePhoto: "/profile-placeholder.jpg",
   interests: [
     {
@@ -41,103 +41,93 @@ export const portfolioData: PortfolioData = {
   ],
   techStack: [
     {
-      category: "Frontend",
-      items: ["React", "Next.js 14", "JavaScript", "TypeScript", "Tailwind CSS", "Framer Motion"]
+      category: "Languages",
+      items: ["JavaScript", "TypeScript", "Python", "C++"]
     },
     {
-      category: "Backend",
-      items: ["Node.js", "Express.js", "Socket.io"]
+      category: "Technologies & Frameworks",
+      items: ["Node.js", "NestJS", "Express.js", "React.js", "Next.js", "REST APIs", "Microservices"]
     },
     {
-      category: "Databases",
-      items: ["MongoDB", "PostgreSQL", "Redis"]
+      category: "Databases & ORMs",
+      items: ["PostgreSQL", "MongoDB", "MySQL", "PrismaORM", "TypeORM"]
     },
     {
-      category: "Tools",
-      items: ["Git", "GitHub", "Postman", "Docker", "Vercel"]
+      category: "Tools & Platforms",
+      items: ["GitHub", "GitLab", "Copilot", "Cursor", "AWS (S3, EC2, RDS)", "Docker"]
     }
   ],
   education: [
     {
-      institution: "Metropolis Institute of Technology",
-      degree: "B.S. in Computer Science",
-      duration: "2022 - 2026",
-      gpa: "3.92 / 4.0"
-    },
-    {
-      institution: "Hyper Island Academy",
-      degree: "Interactive Design & Frontend Course",
-      duration: "2021 - 2022"
+      institution: "Medi-Caps University",
+      degree: "B.Tech in Computer Science and Engineering",
+      duration: "2021 - 2025",
+      gpa: "CGPA: 8.29"
     }
   ],
   experience: [
     {
-      company: "ByteCraft Studio",
-      role: "Frontend Engineer Intern",
-      duration: "Jun 2025 - Present",
-      description: "Developing modern UI features for their core SaaS product using Next.js, Tailwind CSS, and Framer Motion. Reduced page load times by 25% by implementing dynamic routing and image optimization."
-    },
-    {
-      company: "Freelance & Open Source",
-      role: "Full-Stack Developer",
-      duration: "2023 - 2025",
-      description: "Built responsive landing pages and high-performance web applications for startup clients. Active contributor to open-source UI libraries, resolving accessibility issues."
+      company: "SYSTANGO",
+      role: "Software Development Engineer",
+      duration: "Feb 2025 - Present",
+      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, and React.js. Implemented scalable RESTful APIs, authentication systems, and database optimizations improving average response times by ~20%. Collaborated with frontend teams to troubleshoot interactions and owned features from analysis to deployment."
     }
   ],
   certifications: [
     {
-      name: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
+      name: "Elements of AI",
+      issuer: "University of Helsinki",
+      year: "2023",
+      link: "https://www.elementsofai.com"
+    },
+    {
+      name: "Alteryx Designer Core Certified",
+      issuer: "Alteryx",
+      year: "2024",
+      link: "https://www.alteryx.com"
+    },
+    {
+      name: "Claude Code in Action",
+      issuer: "Anthropic",
+      year: "2025",
+      link: "https://www.anthropic.com"
+    },
+    {
+      name: "AWS Cloud Practitioner Essentials",
+      issuer: "AWS Skill Builder",
       year: "2024",
       link: "https://aws.amazon.com"
-    },
-    {
-      name: "Meta Professional Front-End Developer",
-      issuer: "Meta",
-      year: "2023",
-      link: "https://coursera.org"
-    },
-    {
-      name: "Google Advanced Data Analytics",
-      issuer: "Google",
-      year: "2023",
-      link: "https://coursera.org"
-    },
-    {
-      name: "OpenJS Node.js Application Developer",
-      issuer: "OpenJS Foundation",
-      year: "2024",
-      link: "https://openjsf.org"
     }
+  ],
+  achievements: [
+    "Team Lead at WittyHacks 4.0 (MLH Hackathon) — Led a team of 4 to build an innovative personalized learning pathway solution.",
+    "Selected among top 72 mentees in Codess.Cafe (Women in Tech Mentorship Program) in India."
   ],
   projects: [
     {
-      title: "AI Text Summarizer",
-      description: "Instantly condenses long articles, PDFs, and Youtube videos into Gen-Z slang or professional summaries using OpenAI.",
-      tech: ["Next.js", "OpenAI API", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "AI-Shield",
+      description: "A compliance-based Chrome extension performing real-time Data Loss Prevention (DLP) across AI platforms like ChatGPT, Claude, and Gemini. Implemented client-side detection and redaction of credit cards, emails, phone numbers, and JWT tokens.",
+      tech: ["JavaScript", "Chrome Extension API", "DLP"],
+      github: "https://github.com/somanilishika"
     },
     {
-      title: "Bento Workspace",
-      description: "A drag-and-drop web dashboard that compiles your daily schedule, tasks, widgets, and weather in a clean Bento-box grid.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Dnd-kit"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Bookmark Chrome Extension",
+      description: "A productivity-focused Chrome extension to save and manage YouTube video timestamps. Enables users to bookmark and revisit specific moments with persistent data storage using Chrome Storage API.",
+      tech: ["JavaScript", "Chrome Extension API"],
+      github: "https://github.com/somanilishika"
     },
     {
-      title: "HyperChat Server",
-      description: "Ultra-low latency real-time messaging gateway that supports temporary rooms, self-destructing text, and rich presence.",
-      tech: ["Node.js", "Express.js", "Socket.io", "Redis"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "ScanIT Attendance System",
+      description: "A fully automated barcode-based attendance management system using OpenCV for real-time barcode recognition, reducing manual tracking by over 80% with Pandas data pipelines.",
+      tech: ["Python", "OpenCV", "Pandas"],
+      github: "https://github.com/somanilishika"
     }
   ],
   socials: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    email: "kai@vance.codes"
+    github: "https://github.com/somaniishika",
+    linkedin: "https://linkedin.com/in/ishikasomani",
+    instagram: "https://instagram.com/ishikasomani5",
+    email: "ishika05somani@gmail.com"
   },
-  contactMessage: "Always open to building cool things, collaborating on weird projects, or chatting about matcha. Let's make something amazing."
+  contactMessage: "Always open to collaborating on backend services, AI compliance tools, or discussing system architecture. Let's build something amazing together!"
 };

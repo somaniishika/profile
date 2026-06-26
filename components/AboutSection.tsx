@@ -83,7 +83,7 @@ export default function AboutSection() {
               {index === 2 && ( // AI (Wide)
                 <div className="mt-6 font-mono text-[10px] bg-black/40 border border-cardBorder rounded-2xl p-3 text-neutral-400 flex items-center gap-2">
                   <Terminal className="w-4 h-4 text-accent" />
-                  <span className="truncate">kai ~ $ python -m train_agent --temperature=1.337</span>
+                  <span className="truncate">ishika ~ $ python -m train_agent --temperature=1.337</span>
                 </div>
               )}
 
