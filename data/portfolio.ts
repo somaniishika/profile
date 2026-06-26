@@ -4,8 +4,8 @@ export const portfolioData: PortfolioData = {
   name: "Ishika Somani",
   nickname: "ishika",
   role: "Software Development Engineer",
-  tagline: "Building scalable backend services, securing LLM interactions, and developing productivity tools 💻",
-  bio: "A Software Development Engineer at Systango with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and building custom developer tools like Chrome extensions.",
+  tagline: "Coding, Creating & Exploring 🌿",
+  bio: "A Software Development Engineer with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and building for products & services.",
   profilePhoto: "/profile-placeholder.jpg",
   interests: [
     {
@@ -15,29 +15,29 @@ export const portfolioData: PortfolioData = {
     },
     {
       emoji: "🎧",
-      title: "Hyperpop & Phonk",
-      description: "Running on 180 BPM playlists and tight deadlines."
+      title: "Rock & Bollywood Music",
+      description: "Running on playlists and tight deadlines."
     },
     {
-      emoji: "🤖",
-      title: "Artificial Intelligence",
-      description: "Teaching machines questionable internet humor."
+      emoji: "🕉️",
+      title: "Mythology",
+      description: "Always fascinated by timeless stories and legends."
     },
     {
-      emoji: "🎮",
-      title: "Valorant & Minecraft",
-      description: "Perfecting crosshair placement and redstone loops."
+      emoji: "🚇",
+      title: "Subway Surfers",
+      description: "One more run... for the hundredth time."
     },
     {
       emoji: "🎨",
-      title: "Bento Layouts",
-      description: "Obsessed with rounded corners, dark mode, and grid layouts."
+      title: "Pinterest Rabbit Holes",
+      description: "Saving inspiration like it's a full-time job."
     },
     {
-      emoji: "🛹",
-      title: "Skateboarding",
-      description: "Learning kickflips and falling with style."
-    }
+      emoji: "🏸",
+      title: "Badminton",
+      description: "Smashes on the court, commits on GitHub."
+    },
   ],
   techStack: [
     {
@@ -54,7 +54,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Tools & Platforms",
-      items: ["GitHub", "GitLab", "Copilot", "Cursor", "AWS (S3, EC2, RDS)", "Docker"]
+      items: ["GitHub", "GitLab", "Copilot", "Cursor", "AWS", "Docker", "Figma", "Jira", "Azure", "Postman"]
     }
   ],
   education: [
@@ -70,7 +70,7 @@ export const portfolioData: PortfolioData = {
       company: "SYSTANGO",
       role: "Software Development Engineer",
       duration: "Feb 2025 - Present",
-      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, and React.js. Implemented scalable RESTful APIs, authentication systems, and database optimizations improving average response times by ~20%. Collaborated with frontend teams to troubleshoot interactions and owned features from analysis to deployment."
+      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python. Implemented scalable RESTful APIs, authentication systems, and database optimizations improving average response times by ~20%. Collaborated with frontend teams to troubleshoot interactions and owned features from analysis to deployment."
     }
   ],
   certifications: [
@@ -117,10 +117,10 @@ export const portfolioData: PortfolioData = {
       github: "https://github.com/somanilishika"
     },
     {
-      title: "ScanIT Attendance System",
+      title: "ScanIT",
       description: "A fully automated barcode-based attendance management system using OpenCV for real-time barcode recognition, reducing manual tracking by over 80% with Pandas data pipelines.",
       tech: ["Python", "OpenCV", "Pandas"],
-      github: "https://github.com/somanilishika"
+      github: "https://github.com/somaniishika"
     }
   ],
   socials: {

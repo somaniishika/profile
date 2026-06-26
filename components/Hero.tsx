@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
-import { Sparkles } from "lucide-react";
+//import { Sparkles } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -32,7 +32,7 @@ export default function Hero() {
           >
             {portfolioData.name}
           </motion.h1>
-          
+
           {/* Tagline with Blinking Cursor */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-wrap gap-4 text-xs font-mono text-neutral-500 pt-2"
         >
-          <span>📍 LOC: 37.7749° N, 122.4194° W</span>
+          <span>📍 LOC: INDIA </span>
           <span>•</span>
           <span>📶 PING: stable</span>
           <span>•</span>
@@ -74,14 +74,14 @@ export default function Hero() {
       <motion.div
         initial={{ opacity: 0, scale: 0.9, rotate: 6 }}
         animate={{ opacity: 1, scale: 1, rotate: -4 }}
-        transition={{ 
-          type: "spring", 
-          stiffness: 100, 
+        transition={{
+          type: "spring",
+          stiffness: 100,
           damping: 15,
-          delay: 0.25 
+          delay: 0.25
         }}
-        whileHover={{ 
-          rotate: 2, 
+        whileHover={{
+          rotate: 2,
           scale: 1.05,
           transition: { type: "spring", stiffness: 350, damping: 12 }
         }}
@@ -103,12 +103,12 @@ export default function Hero() {
         </div>
 
         {/* Polaroid caption */}
-        <div className="mt-4 font-mono flex items-center justify-between text-neutral-800">
-          <span className="text-sm font-bold">@{portfolioData.nickname || "kai"}</span>
+        {/* <div className="mt-4 font-mono flex items-center justify-between text-neutral-800">
+          <span className="text-sm font-bold">@{portfolioData.nickname || "ishika"}</span>
           <span className="flex items-center gap-1 text-[10px] bg-neutral-900 text-accent px-1.5 py-0.5 rounded uppercase font-bold">
             <Sparkles className="w-3 h-3 text-accent" /> dev
           </span>
-        </div>
+        </div> */}
       </motion.div>
     </section>
   );
