@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
   role: "Software Development Engineer",
   tagline: "Coding, Creating & Exploring 🌿",
   bio: "A Software Development Engineer with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and building for products & services.",
-  profilePhoto: "/profile-placeholder.jpg",
+  profilePhoto: "/my-image.png",
   interests: [
     {
       emoji: "☕",
@@ -62,7 +62,7 @@ export const portfolioData: PortfolioData = {
       institution: "Medi-Caps University",
       degree: "B.Tech in Computer Science and Engineering",
       duration: "2021 - 2025",
-      gpa: "CGPA: 8.29"
+      gpa: "8.29"
     }
   ],
   experience: [

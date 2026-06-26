@@ -4,7 +4,7 @@ import React from "react";
 import BentoCard from "./BentoCard";
 import SectionWrapper from "./SectionWrapper";
 import { portfolioData } from "@/data/portfolio";
-import { Play, Terminal } from "lucide-react";
+import { Play } from "lucide-react";
 
 export default function AboutSection() {
   const { interests } = portfolioData;
@@ -80,12 +80,12 @@ export default function AboutSection() {
                 </div>
               )}
 
-              {index === 2 && ( // AI (Wide)
-                <div className="mt-6 font-mono text-[10px] bg-black/40 border border-cardBorder rounded-2xl p-3 text-neutral-400 flex items-center gap-2">
-                  <Terminal className="w-4 h-4 text-accent" />
-                  {/* <span className="truncate">ishika ~ $ python -m train_agent --temperature=1.337</span> */}
-                </div>
-              )}
+              {/* {index === 2 && ( // AI (Wide) */}
+              {/* <div className="mt-6 font-mono text-[10px] bg-black/40 border border-cardBorder rounded-2xl p-3 text-neutral-400 flex items-center gap-2">
+                  <Terminal className="w-4 h-4 text-accent" /> */}
+              {/* <span className="truncate">ishika ~ $ python -m train_agent --temperature=1.337</span> */}
+              {/* </div> */}
+              {/* )} */}
 
               {index === 4 && ( // Bento card (Mini bento preview)
                 <div className="mt-6 grid grid-cols-3 gap-1 h-8 opacity-45">
