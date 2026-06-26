@@ -67,8 +67,8 @@ export default function AboutSection() {
                       <Play className="w-3 h-3 fill-black text-black ml-[1.5px]" />
                     </button>
                     <div className="flex flex-col">
-                      <span className="text-white font-bold truncate max-w-[130px] sm:max-w-[200px]">METAMORPHOSIS</span>
-                      <span className="text-[10px] text-neutral-500">INTERWORLD (180 BPM)</span>
+                      <span className="text-white font-bold truncate max-w-[130px] sm:max-w-[200px]">Nadaan Parindey</span>
+                      <span className="text-[10px] text-neutral-500">A.R. Rahman • Rockstar</span>
                     </div>
                   </div>
                   <div className="flex items-end gap-[2px] h-6 px-2">
@@ -83,7 +83,7 @@ export default function AboutSection() {
               {index === 2 && ( // AI (Wide)
                 <div className="mt-6 font-mono text-[10px] bg-black/40 border border-cardBorder rounded-2xl p-3 text-neutral-400 flex items-center gap-2">
                   <Terminal className="w-4 h-4 text-accent" />
-                  <span className="truncate">ishika ~ $ python -m train_agent --temperature=1.337</span>
+                  {/* <span className="truncate">ishika ~ $ python -m train_agent --temperature=1.337</span> */}
                 </div>
               )}
 
@@ -96,9 +96,9 @@ export default function AboutSection() {
                 </div>
               )}
 
-              {index === 5 && ( // Skateboarding (Wide)
+              {index === 5 && ( // Badminton (Wide)
                 <div className="mt-6 flex justify-between items-center text-xs font-mono text-neutral-500">
-                  <span>🛹 OLLIE: 85% success</span>
+                  <span>🏸 OLLIE: 85% success</span>
                   <span className="text-accent/40">● ● ● ○</span>
                 </div>
               )}

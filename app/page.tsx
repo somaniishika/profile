@@ -19,7 +19,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-cardBorder/40 bg-black/40 backdrop-blur-md transition-all duration-300">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="#" className="font-display font-black text-lg tracking-tight uppercase hover:opacity-85 transition-opacity">
-            {portfolioData.nickname || "kai"}<span className="text-accent">.</span>
+            {portfolioData.nickname || "ishika"}<span className="text-accent">.</span>
           </a>
           <nav className="flex items-center gap-6 font-mono text-[11px] font-bold tracking-wider uppercase">
             <a href="#about" className="text-neutral-400 hover:text-accent transition-colors duration-150">about</a>

@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <footer className="py-8 border-t border-cardBorder mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-neutral-500">
       <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
-        <span>© {currentYear} {portfolioData.nickname || "kai"}. all rights reserved.</span>
+        <span>© {currentYear} {portfolioData.nickname || "ishika"}. all rights reserved.</span>
         <span className="hidden sm:inline">•</span>
         <span className="flex items-center gap-1">
           let&apos;s build something weird together.{" "}
