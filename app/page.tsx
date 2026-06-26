@@ -5,6 +5,7 @@ import TechStackSection from "@/components/TechStackSection";
 import EducationSection from "@/components/EducationSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import CertificationSection from "@/components/CertificationSection";
+import AchievementsSection from "@/components/AchievementsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -47,7 +48,10 @@ export default function Home() {
               <EducationSection />
               <ExperienceSection />
             </div>
-            <CertificationSection />
+            <div className="space-y-12">
+              <CertificationSection />
+              <AchievementsSection />
+            </div>
           </div>
         </SectionWrapper>
 

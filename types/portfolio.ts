@@ -57,6 +57,7 @@ export interface PortfolioData {
   education: Education[];
   experience: Experience[];
   certifications: Certification[];
+  achievements: string[];
   projects: Project[];
   socials: SocialLinks;
   contactMessage: string;
