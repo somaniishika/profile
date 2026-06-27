@@ -55,7 +55,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Tools & Platforms",
-      items: ["GitHub", "GitLab", "Copilot", "Cursor", "AWS", "Docker", "Figma", "Jira", "Azure", "Postman"]
+      items: ["GitHub", "GitLab", "Copilot", "Cursor", "AWS", "Docker", "Figma", "Jira", "Azure", "Postman", "n8n"]
     }
   ],
   education: [
