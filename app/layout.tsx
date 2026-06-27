@@ -16,10 +16,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: `${portfolioData.name} | ${portfolioData.role}`,
+  title: `${portfolioData.name}`,
   description: portfolioData.bio,
   keywords: ["portfolio", "Gen Z", "developer", "Next.js", "TypeScript", portfolioData.name],
   authors: [{ name: portfolioData.name }],
+  icons: {
+    icon: "/profile-placeholder.jpg",
+  },
   openGraph: {
     title: `${portfolioData.name} | ${portfolioData.role}`,
     description: portfolioData.tagline,

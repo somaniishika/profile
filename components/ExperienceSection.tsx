@@ -50,9 +50,17 @@ export default function ExperienceSection() {
               </p>
 
               {/* Description */}
-              <p className="text-sm text-neutral-500 font-sans leading-relaxed">
-                {exp.description}
-              </p>
+              {Array.isArray(exp.description) ? (
+                <ul className="list-disc pl-4 space-y-1.5 text-sm text-neutral-500 font-sans leading-relaxed">
+                  {exp.description.map((bullet, i) => (
+                    <li key={i}>{bullet}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-sm text-neutral-500 font-sans leading-relaxed">
+                  {exp.description}
+                </p>
+              )}
             </div>
           </motion.div>
         ))}

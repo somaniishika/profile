@@ -71,7 +71,13 @@ export const portfolioData: PortfolioData = {
       company: "SYSTANGO",
       role: "Software Development Engineer",
       duration: "Feb 2025 - Present",
-      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python. Implemented scalable RESTful APIs, systems, and database optimizations improving average response times by ~30%. Collaborated with teams to troubleshoot interactions and owned features from analysis to deployment."
+      //description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python. Implemented scalable RESTful APIs, systems, and database optimizations improving average response times by ~30%. Collaborated with teams to troubleshoot interactions and owned features from analysis to deployment."
+      description: [
+        "Developed and delivered end-to-end product features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python across the complete software development lifecycle.",
+        "Designed and implemented scalable RESTful APIs, optimized database queries, and improved backend performance, reducing average response times by ~30%.",
+        "Collaborated with cross-functional teams to analyze requirements, troubleshoot production issues, review code, and own features from development through deployment.",
+        "Built reusable modules, maintained clean and scalable code, and contributed to improving application reliability and maintainability."
+      ]
     }
   ],
   certifications: [

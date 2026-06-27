@@ -42,7 +42,7 @@ export default function Home() {
         <TechStackSection />
 
         {/* Combined Credentials Section (Education & Certifications) */}
-        <SectionWrapper id="credentials" number="[02.5]" title="Credentials" subtitle="background.md">
+        <SectionWrapper id="credentials" number="[02.5]" title="a bit more-technically" subtitle="background.md">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-12">
               <EducationSection />
