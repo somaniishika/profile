@@ -21,10 +21,10 @@ export default function TechStackSection() {
             <div>
               {/* Category Header */}
               <div className="flex justify-between items-baseline border-b border-cardBorder pb-3 mb-5">
-                <h3 className="text-lg font-display font-black tracking-tight uppercase text-neutral-300">
+                <h3 className="text-lg font-bold tracking-tight uppercase text-foreground">
                   {group.category}
                 </h3>
-                <span className="font-mono text-[9px] text-neutral-600">
+                <span className="font-mono text-[9px] text-neutral-400">
                   [{group.items.length} items]
                 </span>
               </div>
@@ -35,13 +35,13 @@ export default function TechStackSection() {
                   <motion.span
                     key={tech}
                     whileHover={{
-                      scale: 1.08,
-                      backgroundColor: "#D7FF4A",
-                      color: "#000000",
-                      borderColor: "#D7FF4A",
+                      scale: 1.05,
+                      backgroundColor: "#DDD6FE",
+                      borderColor: "#A78BFA",
+                      color: "#6D28D9",
                     }}
                     transition={{ type: "spring", stiffness: 350, damping: 12 }}
-                    className="px-3.5 py-2 rounded-xl border border-cardBorder bg-black/40 text-xs font-mono text-neutral-300 cursor-default select-none transition-colors duration-150"
+                    className="px-3.5 py-1.5 rounded-full border border-[#DDD6FE] bg-[#EDE9FE] text-xs font-mono text-[#7C3AED] font-semibold cursor-default select-none transition-colors duration-150"
                   >
                     {tech}
                   </motion.span>

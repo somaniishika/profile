@@ -14,16 +14,16 @@ export default function AboutSection() {
     switch (index) {
       case 0: // Matcha
         return { colSpan: "col-span-1", rowSpan: "row-span-1" };
-      case 1: // Music (Hyperpop/Phonk) - Wide
-        return { colSpan: "md:col-span-2 col-span-1", rowSpan: "row-span-1" };
-      case 2: // AI - Wide
-        return { colSpan: "md:col-span-2 col-span-1", rowSpan: "row-span-1" };
+      case 1: // Music (wide)
+        return { colSpan: "md:col-span-2 col-span-2", rowSpan: "row-span-1" };
+      case 2: // AI
+        return { colSpan: "md:col-span-2 col-span-2", rowSpan: "row-span-1" };
       case 3: // Gaming
         return { colSpan: "col-span-1", rowSpan: "row-span-1" };
       case 4: // Bento Layouts
         return { colSpan: "col-span-1", rowSpan: "row-span-1" };
-      case 5: // Skateboarding - Wide
-        return { colSpan: "md:col-span-2 col-span-1", rowSpan: "row-span-1" };
+      case 5: // Badminton (wide)
+        return { colSpan: "md:col-span-2 col-span-2", rowSpan: "row-span-1" };
       default:
         return { colSpan: "col-span-1", rowSpan: "row-span-1" };
     }
@@ -31,7 +31,7 @@ export default function AboutSection() {
 
   return (
     <SectionWrapper id="about" number="[01]" title="What I Love" subtitle="interests.json">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
         {interests.map((interest, index) => {
           const { colSpan, rowSpan } = getCardGridSpan(index);
           const delay = index * 0.1;
@@ -46,14 +46,14 @@ export default function AboutSection() {
             >
               {/* Card Header (Emoji & Title) */}
               <div className="space-y-4">
-                <div className="text-4xl select-none filter drop-shadow-[0_4px_10px_rgba(215,255,74,0.15)]">
+                <div className="text-4xl select-none filter drop-shadow-[0_4px_10px_rgba(167,139,250,0.15)]">
                   {interest.emoji}
                 </div>
                 <div>
-                  <h3 className="text-xl font-display font-black tracking-tight uppercase">
+                  <h3 className="text-xl font-bold tracking-tight uppercase text-foreground">
                     {interest.title}
                   </h3>
-                  <p className="text-sm text-neutral-400 font-sans mt-2 leading-relaxed">
+                  <p className="text-sm text-neutral-500 font-sans mt-2 leading-relaxed">
                     {interest.description}
                   </p>
                 </div>
@@ -61,14 +61,14 @@ export default function AboutSection() {
 
               {/* Decorative components inside bento cards */}
               {index === 1 && ( // Music (Wide)
-                <div className="mt-6 flex items-center justify-between bg-black/40 border border-cardBorder rounded-2xl p-3 text-xs font-mono">
+                <div className="mt-6 flex items-center justify-between bg-[#F5F4F0] border border-cardBorder rounded-2xl p-3 text-xs font-mono text-[#888880]">
                   <div className="flex items-center gap-2">
-                    <button className="w-6 h-6 rounded-full bg-accent text-black flex items-center justify-center hover:scale-105 transition-transform">
-                      <Play className="w-3 h-3 fill-black text-black ml-[1.5px]" />
+                    <button className="w-6 h-6 rounded-full bg-accent text-white flex items-center justify-center hover:scale-105 transition-transform">
+                      <Play className="w-3 h-3 fill-white text-white ml-[1.5px]" />
                     </button>
                     <div className="flex flex-col">
-                      <span className="text-white font-bold truncate max-w-[130px] sm:max-w-[200px]">Nadaan Parindey</span>
-                      <span className="text-[10px] text-neutral-500">A.R. Rahman • Rockstar</span>
+                      <span className="text-foreground font-bold truncate max-w-[130px] sm:max-w-[200px]">Nadaan Parindey</span>
+                      <span className="text-[10px] text-neutral-400">A.R. Rahman • Rockstar</span>
                     </div>
                   </div>
                   <div className="flex items-end gap-[2px] h-6 px-2">
@@ -88,17 +88,17 @@ export default function AboutSection() {
               {/* )} */}
 
               {index === 4 && ( // Bento card (Mini bento preview)
-                <div className="mt-6 grid grid-cols-3 gap-1 h-8 opacity-45">
-                  <div className="bg-neutral-800 rounded-sm border border-neutral-700" />
+                <div className="mt-6 grid grid-cols-3 gap-1 h-8 opacity-60">
+                  <div className="bg-[#E8E6E0] rounded-sm border border-[#D5D3CB]" />
                   <div className="bg-accent rounded-sm col-span-2" />
-                  <div className="bg-neutral-800 rounded-sm col-span-2 border border-neutral-700" />
-                  <div className="bg-neutral-800 rounded-sm border border-neutral-700" />
+                  <div className="bg-[#E8E6E0] rounded-sm col-span-2 border border-[#D5D3CB]" />
+                  <div className="bg-[#E8E6E0] rounded-sm border border-[#D5D3CB]" />
                 </div>
               )}
 
               {index === 5 && ( // Badminton (Wide)
                 <div className="mt-6 flex justify-between items-center text-xs font-mono text-neutral-500">
-                  <span>🏸 OLLIE: 85% success</span>
+                  <span>🏸 Weekend Matches: Always Ready</span>
                   <span className="text-accent/40">● ● ● ○</span>
                 </div>
               )}

@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #050505;
-  --foreground: #F5F5F7;
+  --background: #F5F4F0;
+  --foreground: #1A1A1A;
 }
 
 html {
@@ -29,16 +29,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0F0F0F;
+  background: #F5F4F0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #252525;
+  background: #E8E6E0;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D7FF4A;
+  background: #A78BFA;
 }
 
 /* Custom terminal cursor animation */
@@ -53,8 +53,8 @@ body {
 
 /* Selection color */
 ::selection {
-  background-color: #D7FF4A;
-  color: #000000;
+  background-color: #EDE9FE;
+  color: #7C3AED;
 }
 
 @layer utilities {

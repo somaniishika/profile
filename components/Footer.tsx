@@ -28,11 +28,12 @@ export default function Footer() {
         onClick={scrollToTop}
         whileHover={{
           scale: 1.1,
-          backgroundColor: "#D7FF4A",
-          color: "#000000",
+          backgroundColor: "#A78BFA",
+          color: "#FFFFFF",
+          borderColor: "#A78BFA",
         }}
         transition={{ type: "spring", stiffness: 300, damping: 15 }}
-        className="w-8 h-8 rounded-full border border-cardBorder bg-black/40 flex items-center justify-center text-neutral-400 cursor-pointer active:scale-95 transition-colors duration-150"
+        className="w-8 h-8 rounded-full border border-cardBorder bg-white flex items-center justify-center text-neutral-400 cursor-pointer active:scale-95 shadow-[0_2px_8px_rgba(0,0,0,0.06)] transition-colors duration-150"
         title="Scroll to Top"
         aria-label="Scroll to top"
       >
