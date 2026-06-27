@@ -43,6 +43,7 @@ export interface SocialLinks {
   linkedin?: string;
   instagram?: string;
   email?: string;
+  leetcode?: string;
 }
 
 export interface PortfolioData {

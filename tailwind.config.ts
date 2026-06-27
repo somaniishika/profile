@@ -12,12 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         accent: {
-          DEFAULT: "#D7FF4A",
-          hover: "#C5F036",
-          dark: "#1e2908",
+          DEFAULT: "#A78BFA",
+          hover: "#8B5CF6",
+          light: "#EDE9FE",
+          dark: "#7C3AED",
         },
-        cardBg: "#0F0F0F",
-        cardBorder: "#1E1E1E",
+        cardBg: "#FFFFFF",
+        cardBorder: "#E8E6E0",
       },
       fontFamily: {
         sans: ["var(--font-jakarta)", "sans-serif"],

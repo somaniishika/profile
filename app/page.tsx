@@ -16,22 +16,22 @@ export default function Home() {
   return (
     <div className="min-h-screen relative">
       {/* Sticky Header Nav */}
-      <header className="sticky top-0 z-50 w-full border-b border-cardBorder/40 bg-black/40 backdrop-blur-md transition-all duration-300">
-        <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="#" className="font-display font-black text-lg tracking-tight uppercase hover:opacity-85 transition-opacity">
+      <header className="sticky top-0 z-50 w-full border-b border-cardBorder/40 bg-white/60 backdrop-blur-md transition-all duration-300">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-0 h-16 flex items-center justify-between">
+          <a href="#" className="font-sans font-bold text-lg tracking-tight uppercase hover:opacity-85 transition-opacity">
             {portfolioData.nickname || "ishika"}<span className="text-accent">.</span>
           </a>
           <nav className="flex items-center gap-6 font-mono text-[11px] font-bold tracking-wider uppercase">
-            <a href="#about" className="text-neutral-400 hover:text-accent transition-colors duration-150">about</a>
-            <a href="#tech" className="text-neutral-400 hover:text-accent transition-colors duration-150">tech</a>
-            <a href="#projects" className="text-neutral-400 hover:text-accent transition-colors duration-150">work</a>
-            <a href="#contact" className="text-neutral-400 hover:text-accent transition-colors duration-150">contact</a>
+            <a href="#about" className="text-neutral-500 hover:text-accent transition-colors duration-150">about</a>
+            <a href="#tech" className="text-neutral-500 hover:text-accent transition-colors duration-150">tech</a>
+            <a href="#projects" className="text-neutral-500 hover:text-accent transition-colors duration-150">work</a>
+            <a href="#contact" className="text-neutral-500 hover:text-accent transition-colors duration-150">contact</a>
           </nav>
         </div>
       </header>
 
       {/* Main Container */}
-      <main className="max-w-5xl mx-auto px-6 pb-12 space-y-4">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 md:px-0 pb-12 space-y-4">
         {/* Hero Section */}
         <Hero />
 

@@ -2,10 +2,11 @@ import { PortfolioData } from "../types/portfolio";
 
 export const portfolioData: PortfolioData = {
   name: "Ishika Somani",
-  nickname: "ishika",
+  nickname: "ishika somani",
   role: "Software Development Engineer",
   tagline: "Coding, Creating & Exploring 🌿",
-  bio: "A Software Development Engineer with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and building for products & services.",
+  // bio: "A Software Development Engineer with a B.Tech in Computer Science and Engineering. Obsessed with high-performance APIs, robust database design, and impactful products.",
+  bio: "I like building the parts of software users don\'t see-but rely on every day. From APIs and databases to scalable systems, I enjoy making things work reliably behind the scenes.",
   profilePhoto: "/my-image.png",
   interests: [
     {
@@ -36,7 +37,7 @@ export const portfolioData: PortfolioData = {
     {
       emoji: "🏸",
       title: "Badminton",
-      description: "Smashes on the court, commits on GitHub."
+      description: "Just here for the rallies and good vibes."
     },
   ],
   techStack: [
@@ -70,7 +71,7 @@ export const portfolioData: PortfolioData = {
       company: "SYSTANGO",
       role: "Software Development Engineer",
       duration: "Feb 2025 - Present",
-      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python. Implemented scalable RESTful APIs, authentication systems, and database optimizations improving average response times by ~20%. Collaborated with frontend teams to troubleshoot interactions and owned features from analysis to deployment."
+      description: "Developed and delivered end-to-end features using Node.js, NestJS, PostgreSQL, MongoDB, React.js, Next.js, and Python. Implemented scalable RESTful APIs, systems, and database optimizations improving average response times by ~30%. Collaborated with teams to troubleshoot interactions and owned features from analysis to deployment."
     }
   ],
   certifications: [
@@ -127,7 +128,8 @@ export const portfolioData: PortfolioData = {
     github: "https://github.com/somaniishika",
     linkedin: "https://linkedin.com/in/ishikasomani",
     instagram: "https://instagram.com/ishikasomani5",
-    email: "ishika05somani@gmail.com"
+    email: "ishika05somani@gmail.com",
+    leetcode: "https://leetcode.com/u/ishika05somani"
   },
-  contactMessage: "Always open to collaborating on backend services, AI compliance tools, or discussing system architecture. Let's build something amazing together!"
+  contactMessage: "Always open to collaborating! Drop me a mail or  ping me on LinkedIn"
 };

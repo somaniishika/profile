@@ -22,23 +22,23 @@ export default function SectionWrapper({
 }: SectionWrapperProps) {
   return (
     <section id={id} className={`py-12 md:py-16 border-b border-cardBorder last:border-b-0 ${className}`}>
-      {/* Section Title Grid */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-4 mb-8 md:mb-10"
+        className="flex items-center gap-3 mb-8 md:mb-10 font-sans"
       >
-        <span className="font-mono text-accent text-sm tracking-widest font-extrabold">
+        <span className="font-sans text-accent text-[11px] tracking-[3px] uppercase font-bold shrink-0">
           {number}
         </span>
-        <h2 className="text-2xl sm:text-3xl font-display font-black uppercase tracking-tight text-foreground">
+        <span className="text-neutral-400 text-xs font-mono select-none">✦</span>
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground lowercase" style={{ fontWeight: 800, letterSpacing: "-1.5px" }}>
           {title}
         </h2>
         {subtitle && (
-          <span className="font-mono text-[10px] md:text-xs text-neutral-500 md:ml-4">
-            {"// "}{subtitle}
+          <span className="font-mono text-[10px] text-neutral-400 ml-2 hidden sm:inline lowercase">
+            {"· "}{subtitle}
           </span>
         )}
       </motion.div>
