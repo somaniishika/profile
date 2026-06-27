@@ -19,7 +19,7 @@ export default function EducationSection() {
       </div>
 
       {/* Timeline List */}
-      <div className="relative ml-3 pl-6 space-y-8" style={{ borderLeft: "3px solid #A78BFA" }}>
+      <div className="relative border-l border-cardBorder ml-3 pl-6 space-y-8">
         {education.map((edu, index) => (
           <motion.div
             key={edu.institution}
@@ -30,11 +30,11 @@ export default function EducationSection() {
             className="relative"
           >
             {/* Timeline Dot */}
-            <span className="absolute -left-[31.5px] top-1 w-[9px] h-[9px] rounded-full bg-accent ring-4 ring-background" />
+            <span className="absolute -left-[31px] top-1 w-[9px] h-[9px] rounded-full bg-accent ring-4 ring-background" />
 
             <div className="space-y-2">
               {/* Duration / Years */}
-              <div className="flex items-center gap-1.5 font-mono text-xs text-neutral-400">
+              <div className="flex items-center gap-1.5 font-mono text-xs text-neutral-500">
                 <Calendar className="w-3.5 h-3.5" />
                 <span>{edu.duration}</span>
               </div>
@@ -45,14 +45,14 @@ export default function EducationSection() {
               </h4>
 
               {/* Degree */}
-              <p className="text-sm text-neutral-500 font-sans leading-relaxed">
+              <p className="text-sm text-neutral-400 font-sans leading-relaxed">
                 {edu.degree}
               </p>
 
               {/* GPA */}
               {edu.gpa && (
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#EDE9FE] border border-[#DDD6FE] text-[11px] font-mono text-[#7C3AED] font-bold">
-                  <Award className="w-3.5 h-3.5 text-[#7C3AED]" />
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#F5F4F0] border border-[#E8E6E0] text-[11px] font-mono text-neutral-600">
+                  <Award className="w-3.5 h-3.5 text-accent" />
                   <span>CGPA: {edu.gpa}</span>
                 </div>
               )}

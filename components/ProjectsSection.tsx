@@ -12,7 +12,7 @@ export default function ProjectsSection() {
   const { projects } = portfolioData;
 
   return (
-    <SectionWrapper id="projects" number="[03]" title="Projects" subtitle="builds.json">
+    <SectionWrapper id="projects" number="[03]" title="some of my projects" subtitle="builds.json">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, index) => {
           const delay = index * 0.1;
