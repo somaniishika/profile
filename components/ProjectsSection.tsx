@@ -61,7 +61,7 @@ export default function ProjectsSection() {
                 </div>
 
                 {/* Links Buttons */}
-                <div className="grid grid-cols-2 gap-3">
+                <div className={`grid gap-3 ${project.github && project.demo ? "grid-cols-2" : "grid-cols-1"}`}>
                   {project.github && (
                     <a
                       href={project.github}

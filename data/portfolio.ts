@@ -85,26 +85,38 @@ export const portfolioData: PortfolioData = {
       name: "Elements of AI",
       issuer: "University of Helsinki",
       year: "2023",
-      link: "https://www.elementsofai.com"
+      link: "https://drive.google.com/file/d/1VcZCNkd1BSHo8uefmlwwZWXYyjiGl6OV/view?usp=sharing"
     },
     {
       name: "Alteryx Designer Core Certified",
       issuer: "Alteryx",
       year: "2024",
-      link: "https://www.alteryx.com"
+      link: "https://drive.google.com/file/d/1A_dU8Nsn4dFubV6KjxqxqCGqWXkK-TTd/view?usp=sharing"
     },
     {
       name: "Claude Code in Action",
       issuer: "Anthropic",
       year: "2025",
-      link: "https://www.anthropic.com"
+      link: "https://drive.google.com/file/d/1gOgOo17FBZySN3j7QqGQAyMQELHV0Fzm/view?usp=sharing"
     },
     {
       name: "AWS Cloud Practitioner Essentials",
       issuer: "AWS Skill Builder",
       year: "2024",
-      link: "https://aws.amazon.com"
-    }
+      link: "https://drive.google.com/file/d/1aSUX07ao5DmsBacuWF00TREOewmixEgQ/view?usp=sharing"
+    },
+    {
+      name: "Crash Course on Python",
+      issuer: "Google-Coursera",
+      year: "2024",
+      link: "https://drive.google.com/file/d/1UAJN9eOmyQQ76SFmaNVvdSkg4CR5-pcN/view?usp=sharing"
+    },
+    {
+      name: "Project Management Foundations",
+      issuer: "PMI & LinkedIn",
+      year: "2026",
+      link: "https://drive.google.com/file/d/1XmC_U9jM59_D4J3l4l4l4l4l4l4l4l4/view?usp=sharing"
+    },
   ],
   achievements: [
     "Team Lead at WittyHacks 4.0 (MLH Hackathon) — Led a team of 4 to build an innovative personalized learning pathway solution.",
@@ -115,19 +127,22 @@ export const portfolioData: PortfolioData = {
       title: "AI-Shield",
       description: "A compliance-based Chrome extension performing real-time Data Loss Prevention (DLP) across AI platforms like ChatGPT, Claude, and Gemini. Implemented client-side detection and redaction of credit cards, emails, phone numbers, and JWT tokens.",
       tech: ["JavaScript", "Chrome Extension API", "DLP"],
-      github: "https://github.com/somanilishika"
+      github: "https://github.com/somaniishika/ai-shield",
+      demo: "https://chrome://extensions/?id=cgncjehmipojmibbemddbffnmokieincs"
     },
     {
       title: "Bookmark Chrome Extension",
       description: "A productivity-focused Chrome extension to save and manage YouTube video timestamps. Enables users to bookmark and revisit specific moments with persistent data storage using Chrome Storage API.",
       tech: ["JavaScript", "Chrome Extension API"],
-      github: "https://github.com/somanilishika"
+      github: "https://github.com/somaniishika/yt-mark",
+      demo: "https://chrome://extensions/?id=llefjibpdkohjdmjoohjecekhiehfdka"
     },
     {
       title: "ScanIT",
       description: "A fully automated barcode-based attendance management system using OpenCV for real-time barcode recognition, reducing manual tracking by over 80% with Pandas data pipelines.",
       tech: ["Python", "OpenCV", "Pandas"],
-      github: "https://github.com/somaniishika"
+      github: "https://github.com/somaniishika",
+      demo: "https://github.com/somaniishika"
     }
   ],
   socials: {
