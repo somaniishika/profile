@@ -47,11 +47,11 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Technologies & Frameworks",
-      items: ["Node.js", "NestJS", "Express.js", "React.js", "Next.js", "REST APIs", "Microservices"]
+      items: ["Node.js", "NestJS", "Express.js", "FastAPI", "numpy", "pandas", "React.js", "Next.js", "NX Monorepo", "REST APIs", "Microservices"]
     },
     {
       category: "Databases & ORMs",
-      items: ["PostgreSQL", "MongoDB", "MySQL", "PrismaORM", "TypeORM"]
+      items: ["PostgreSQL", "MongoDB", "MySQL", "PrismaORM", "TypeORM", "SQLAlchemy"]
     },
     {
       category: "Tools & Platforms",
