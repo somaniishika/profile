@@ -61,7 +61,7 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       institution: "Medi-Caps University",
-      degree: "B.Tech in Computer Science and Engineering",
+      degree: "B.Tech - Computer Science and Engineering",
       duration: "2021 - 2025",
       gpa: "8.29"
     }
